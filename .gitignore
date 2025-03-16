@@ -1,1 +1,11 @@
-liangqi1/LLM/transformer-study/data/
+# Ignore large data files
+data/pretrain_data.csv
+data/encoded_texts.pt
+
+# Ignore all `.pt` and `.csv` files in `data/` folder (optional)
+data/*.pt
+data/*.csv
+
+# Ignore backup files
+*.bak
+*.log
