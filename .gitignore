@@ -1,6 +1,7 @@
 # Ignore large data files
 data/pretrain_data.csv
 data/encoded_texts.pt
+checkpoint/decoder_transformer.pth
 
 # Ignore all `.pt` and `.csv` files in `data/` folder (optional)
 data/*.pt
